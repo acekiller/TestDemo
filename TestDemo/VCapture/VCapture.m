@@ -151,6 +151,12 @@
     [self.videoWriter stop];
 }
 
+- (void) configHandler:(void(AVCaptureSession *session))handler {
+    [self.session beginConfiguration];
+    handler(self.session);
+    [self.session commitConfiguration];
+}
+
 - (void) captureOutput:(AVCaptureOutput *)captureOutput
  didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer
         fromConnection:(AVCaptureConnection *)connection
@@ -159,7 +165,7 @@
         [self videoCaputureOutput:captureOutput
             didOutputSampleBuffer:sampleBuffer
                    fromConnection:connection];
-        [self.videoWriter writerBuffer:sampleBuffer];
+//        [self.videoWriter writerBuffer:sampleBuffer];
     }
 //    [self writerToFile:sampleBuffer
 //        fromConnection:connection

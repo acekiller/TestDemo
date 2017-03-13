@@ -10,6 +10,10 @@
 #import "TextFieldTestController.h"
 #import "VideoRecordController.h"
 #import "MergeController.h"
+#import "AppearanceViewController.h"
+#import "HtmlToPdfController.h"
+#import "PopoverController.h"
+#import "PlayController.h"
 
 @interface TestListController ()
 {
@@ -27,6 +31,10 @@
     [self addListItem:@"UITextField" className:NSStringFromClass([TextFieldTestController class])];
     [self addListItem:@"Merge Video" className:NSStringFromClass([MergeController class])];
     [self addListItem:@"Record" className:NSStringFromClass([VideoRecordController class])];
+    [self addListItem:@"Appearance" className:NSStringFromClass([AppearanceViewController class])];
+    [self addListItem:@"Html To PDF" className:NSStringFromClass([HtmlToPdfController class])];
+    [self addListItem:@"Popover" className:NSStringFromClass([PopoverController class])];
+    [self addListItem:@"Play & Pause" className:NSStringFromClass([PlayController class])];
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;

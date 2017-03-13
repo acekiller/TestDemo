@@ -13,9 +13,19 @@
 		185335BE1D8FE29900329C14 /* AVAssetTrack+AVEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 185335BD1D8FE29900329C14 /* AVAssetTrack+AVEditor.m */; };
 		185335C11D8FEA8700329C14 /* AVEditorexporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 185335C01D8FEA8700329C14 /* AVEditorexporter.m */; };
 		1853BB211D9BC4F700403ECE /* VideoWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1853BB201D9BC4F700403ECE /* VideoWriter.m */; };
+		185530831E150C6A0004A3A9 /* HtmlToPdfController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185530821E150C6A0004A3A9 /* HtmlToPdfController.m */; };
+		185530861E150E680004A3A9 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185530851E150E670004A3A9 /* WebKit.framework */; };
+		185530891E150F170004A3A9 /* UIViewController+HTMLToPDF.m in Sources */ = {isa = PBXBuildFile; fileRef = 185530881E150F170004A3A9 /* UIViewController+HTMLToPDF.m */; };
+		1855308C1E150F820004A3A9 /* HTMLToPDF.m in Sources */ = {isa = PBXBuildFile; fileRef = 1855308B1E150F820004A3A9 /* HTMLToPDF.m */; };
 		1856F6651D879E99004177F3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1856F6641D879E99004177F3 /* AVFoundation.framework */; };
 		1856F66B1D880A1D004177F3 /* One.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 1856F6691D880A1D004177F3 /* One.m4v */; };
 		1856F66C1D880A1D004177F3 /* Two.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1856F66A1D880A1D004177F3 /* Two.mp4 */; };
+		186304061E4AB1D900ADBDC9 /* PopoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186304051E4AB1D900ADBDC9 /* PopoverController.m */; };
+		186304091E4AB20900ADBDC9 /* FSPopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 186304081E4AB20900ADBDC9 /* FSPopoverView.m */; };
+		1863040C1E4ABAF400ADBDC9 /* PopoverConvertCalculate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1863040B1E4ABAF400ADBDC9 /* PopoverConvertCalculate.m */; };
+		1863040F1E4AE7C100ADBDC9 /* YQJPopoverContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1863040E1E4AE7C100ADBDC9 /* YQJPopoverContentView.m */; };
+		186765EA1E72AE25007A91B0 /* PlayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186765E91E72AE25007A91B0 /* PlayController.m */; };
+		186765ED1E72AE92007A91B0 /* PlayButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 186765EC1E72AE92007A91B0 /* PlayButton.m */; };
 		186AC1B21D8155C4008ABD5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 186AC1B11D8155C4008ABD5F /* main.m */; };
 		186AC1B51D8155C4008ABD5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 186AC1B41D8155C4008ABD5F /* AppDelegate.m */; };
 		186AC1B81D8155C4008ABD5F /* TestDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 186AC1B61D8155C4008ABD5F /* TestDemo.xcdatamodeld */; };
@@ -27,6 +37,10 @@
 		186AC1EB1D8157E9008ABD5F /* TestListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186AC1EA1D8157E9008ABD5F /* TestListController.m */; };
 		186AC1EE1D8159F4008ABD5F /* TextFieldTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186AC1ED1D8159F4008ABD5F /* TextFieldTestController.m */; };
 		186AC1F41D815DB7008ABD5F /* TDTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 186AC1F31D815DB7008ABD5F /* TDTextField.m */; };
+		186BD6A51DF1124000EE0A9C /* SSLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 186BD6A41DF1124000EE0A9C /* SSLParser.m */; };
+		186BD6A61DF1124000EE0A9C /* SSLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 186BD6A41DF1124000EE0A9C /* SSLParser.m */; };
+		186EBE0C1DB715F70089610D /* AppearanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186EBE0B1DB715F70089610D /* AppearanceViewController.m */; };
+		186EBE0F1DB717110089610D /* AppearanceButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 186EBE0E1DB717110089610D /* AppearanceButton.m */; };
 		187E3A111D8E6B2200424DEF /* MergeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187E3A101D8E6B2200424DEF /* MergeController.m */; };
 		187E3A131D8E722800424DEF /* liunian.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 187E3A121D8E722800424DEF /* liunian.mp3 */; };
 		187E3A171D8E836500424DEF /* AVEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 187E3A161D8E836500424DEF /* AVEditor.m */; };
@@ -63,9 +77,28 @@
 		185335C01D8FEA8700329C14 /* AVEditorexporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVEditorexporter.m; sourceTree = "<group>"; };
 		1853BB1F1D9BC4F700403ECE /* VideoWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoWriter.h; sourceTree = "<group>"; };
 		1853BB201D9BC4F700403ECE /* VideoWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoWriter.m; sourceTree = "<group>"; };
+		185530811E150C6A0004A3A9 /* HtmlToPdfController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HtmlToPdfController.h; sourceTree = "<group>"; };
+		185530821E150C6A0004A3A9 /* HtmlToPdfController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HtmlToPdfController.m; sourceTree = "<group>"; };
+		185530851E150E670004A3A9 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		185530871E150F170004A3A9 /* UIViewController+HTMLToPDF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HTMLToPDF.h"; sourceTree = "<group>"; };
+		185530881E150F170004A3A9 /* UIViewController+HTMLToPDF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HTMLToPDF.m"; sourceTree = "<group>"; };
+		1855308A1E150F820004A3A9 /* HTMLToPDF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLToPDF.h; sourceTree = "<group>"; };
+		1855308B1E150F820004A3A9 /* HTMLToPDF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLToPDF.m; sourceTree = "<group>"; };
 		1856F6641D879E99004177F3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		1856F6691D880A1D004177F3 /* One.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = One.m4v; sourceTree = "<group>"; };
 		1856F66A1D880A1D004177F3 /* Two.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Two.mp4; sourceTree = "<group>"; };
+		186304041E4AB1D900ADBDC9 /* PopoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverController.h; sourceTree = "<group>"; };
+		186304051E4AB1D900ADBDC9 /* PopoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverController.m; sourceTree = "<group>"; };
+		186304071E4AB20900ADBDC9 /* FSPopoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPopoverView.h; sourceTree = "<group>"; };
+		186304081E4AB20900ADBDC9 /* FSPopoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSPopoverView.m; sourceTree = "<group>"; };
+		1863040A1E4ABAF400ADBDC9 /* PopoverConvertCalculate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverConvertCalculate.h; sourceTree = "<group>"; };
+		1863040B1E4ABAF400ADBDC9 /* PopoverConvertCalculate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverConvertCalculate.m; sourceTree = "<group>"; };
+		1863040D1E4AE7C100ADBDC9 /* YQJPopoverContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQJPopoverContentView.h; sourceTree = "<group>"; };
+		1863040E1E4AE7C100ADBDC9 /* YQJPopoverContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQJPopoverContentView.m; sourceTree = "<group>"; };
+		186765E81E72AE25007A91B0 /* PlayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayController.h; sourceTree = "<group>"; };
+		186765E91E72AE25007A91B0 /* PlayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayController.m; sourceTree = "<group>"; };
+		186765EB1E72AE92007A91B0 /* PlayButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayButton.h; sourceTree = "<group>"; };
+		186765EC1E72AE92007A91B0 /* PlayButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayButton.m; sourceTree = "<group>"; };
 		186AC1AD1D8155C4008ABD5F /* TestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		186AC1B11D8155C4008ABD5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		186AC1B31D8155C4008ABD5F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -87,6 +120,12 @@
 		186AC1ED1D8159F4008ABD5F /* TextFieldTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldTestController.m; sourceTree = "<group>"; };
 		186AC1F21D815DB7008ABD5F /* TDTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTextField.h; sourceTree = "<group>"; };
 		186AC1F31D815DB7008ABD5F /* TDTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTextField.m; sourceTree = "<group>"; };
+		186BD6A31DF1124000EE0A9C /* SSLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSLParser.h; sourceTree = "<group>"; };
+		186BD6A41DF1124000EE0A9C /* SSLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSLParser.m; sourceTree = "<group>"; };
+		186EBE0A1DB715F70089610D /* AppearanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppearanceViewController.h; sourceTree = "<group>"; };
+		186EBE0B1DB715F70089610D /* AppearanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppearanceViewController.m; sourceTree = "<group>"; };
+		186EBE0D1DB717110089610D /* AppearanceButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppearanceButton.h; sourceTree = "<group>"; };
+		186EBE0E1DB717110089610D /* AppearanceButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppearanceButton.m; sourceTree = "<group>"; };
 		187E3A0F1D8E6B2200424DEF /* MergeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MergeController.h; sourceTree = "<group>"; };
 		187E3A101D8E6B2200424DEF /* MergeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MergeController.m; sourceTree = "<group>"; };
 		187E3A121D8E722800424DEF /* liunian.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = liunian.mp3; sourceTree = "<group>"; };
@@ -101,6 +140,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				185530861E150E680004A3A9 /* WebKit.framework in Frameworks */,
 				1856F6651D879E99004177F3 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,6 +175,27 @@
 			path = VCapture;
 			sourceTree = "<group>";
 		};
+		185530801E150C360004A3A9 /* HTMLToPDF */ = {
+			isa = PBXGroup;
+			children = (
+				185530811E150C6A0004A3A9 /* HtmlToPdfController.h */,
+				185530821E150C6A0004A3A9 /* HtmlToPdfController.m */,
+				185530871E150F170004A3A9 /* UIViewController+HTMLToPDF.h */,
+				185530881E150F170004A3A9 /* UIViewController+HTMLToPDF.m */,
+				1855308A1E150F820004A3A9 /* HTMLToPDF.h */,
+				1855308B1E150F820004A3A9 /* HTMLToPDF.m */,
+			);
+			path = HTMLToPDF;
+			sourceTree = "<group>";
+		};
+		185530841E150E670004A3A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				185530851E150E670004A3A9 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1856F6681D880A1D004177F3 /* VideoResource */ = {
 			isa = PBXGroup;
 			children = (
@@ -145,6 +206,32 @@
 			path = VideoResource;
 			sourceTree = "<group>";
 		};
+		186304031E4AB1D900ADBDC9 /* Popover */ = {
+			isa = PBXGroup;
+			children = (
+				186304041E4AB1D900ADBDC9 /* PopoverController.h */,
+				186304051E4AB1D900ADBDC9 /* PopoverController.m */,
+				186304071E4AB20900ADBDC9 /* FSPopoverView.h */,
+				186304081E4AB20900ADBDC9 /* FSPopoverView.m */,
+				1863040A1E4ABAF400ADBDC9 /* PopoverConvertCalculate.h */,
+				1863040B1E4ABAF400ADBDC9 /* PopoverConvertCalculate.m */,
+				1863040D1E4AE7C100ADBDC9 /* YQJPopoverContentView.h */,
+				1863040E1E4AE7C100ADBDC9 /* YQJPopoverContentView.m */,
+			);
+			path = Popover;
+			sourceTree = "<group>";
+		};
+		186765E71E72AE12007A91B0 /* PlayButton */ = {
+			isa = PBXGroup;
+			children = (
+				186765E81E72AE25007A91B0 /* PlayController.h */,
+				186765E91E72AE25007A91B0 /* PlayController.m */,
+				186765EB1E72AE92007A91B0 /* PlayButton.h */,
+				186765EC1E72AE92007A91B0 /* PlayButton.m */,
+			);
+			path = PlayButton;
+			sourceTree = "<group>";
+		};
 		186AC1A41D8155C4008ABD5F = {
 			isa = PBXGroup;
 			children = (
@@ -153,6 +240,7 @@
 				186AC1CF1D8155C5008ABD5F /* TestDemoTests */,
 				186AC1DA1D8155C5008ABD5F /* TestDemoUITests */,
 				186AC1AE1D8155C4008ABD5F /* Products */,
+				185530841E150E670004A3A9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -169,6 +257,10 @@
 		186AC1AF1D8155C4008ABD5F /* TestDemo */ = {
 			isa = PBXGroup;
 			children = (
+				186765E71E72AE12007A91B0 /* PlayButton */,
+				185530801E150C360004A3A9 /* HTMLToPDF */,
+				186BD6A21DF111F000EE0A9C /* Parsercer */,
+				186EBE091DB715D80089610D /* appearance */,
 				18477B331D9A00F20078875A /* VCapture */,
 				187E3A141D8E834C00424DEF /* AVEditor */,
 				1856F6681D880A1D004177F3 /* VideoResource */,
@@ -190,6 +282,7 @@
 				187E3A101D8E6B2200424DEF /* MergeController.m */,
 				18477B3A1D9A012B0078875A /* VideoRecordController.h */,
 				18477B3B1D9A012B0078875A /* VideoRecordController.m */,
+				186304031E4AB1D900ADBDC9 /* Popover */,
 			);
 			path = TestDemo;
 			sourceTree = "<group>";
@@ -218,6 +311,26 @@
 				186AC1DD1D8155C5008ABD5F /* Info.plist */,
 			);
 			path = TestDemoUITests;
+			sourceTree = "<group>";
+		};
+		186BD6A21DF111F000EE0A9C /* Parsercer */ = {
+			isa = PBXGroup;
+			children = (
+				186BD6A31DF1124000EE0A9C /* SSLParser.h */,
+				186BD6A41DF1124000EE0A9C /* SSLParser.m */,
+			);
+			path = Parsercer;
+			sourceTree = "<group>";
+		};
+		186EBE091DB715D80089610D /* appearance */ = {
+			isa = PBXGroup;
+			children = (
+				186EBE0A1DB715F70089610D /* AppearanceViewController.h */,
+				186EBE0B1DB715F70089610D /* AppearanceViewController.m */,
+				186EBE0D1DB717110089610D /* AppearanceButton.h */,
+				186EBE0E1DB717110089610D /* AppearanceButton.m */,
+			);
+			path = appearance;
 			sourceTree = "<group>";
 		};
 		187E3A141D8E834C00424DEF /* AVEditor */ = {
@@ -371,19 +484,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				187E3A171D8E836500424DEF /* AVEditor.m in Sources */,
+				186304061E4AB1D900ADBDC9 /* PopoverController.m in Sources */,
+				185530891E150F170004A3A9 /* UIViewController+HTMLToPDF.m in Sources */,
+				186765EA1E72AE25007A91B0 /* PlayController.m in Sources */,
 				187E3A111D8E6B2200424DEF /* MergeController.m in Sources */,
+				186EBE0F1DB717110089610D /* AppearanceButton.m in Sources */,
 				187E3A1A1D8E89C000424DEF /* AVFile.m in Sources */,
 				18477B391D9A011D0078875A /* VCapture.m in Sources */,
+				186BD6A51DF1124000EE0A9C /* SSLParser.m in Sources */,
+				1855308C1E150F820004A3A9 /* HTMLToPDF.m in Sources */,
+				186EBE0C1DB715F70089610D /* AppearanceViewController.m in Sources */,
 				186AC1B81D8155C4008ABD5F /* TestDemo.xcdatamodeld in Sources */,
 				186AC1F41D815DB7008ABD5F /* TDTextField.m in Sources */,
 				185335C11D8FEA8700329C14 /* AVEditorexporter.m in Sources */,
+				186765ED1E72AE92007A91B0 /* PlayButton.m in Sources */,
 				186AC1B51D8155C4008ABD5F /* AppDelegate.m in Sources */,
 				186AC1B21D8155C4008ABD5F /* main.m in Sources */,
+				186304091E4AB20900ADBDC9 /* FSPopoverView.m in Sources */,
 				186AC1EE1D8159F4008ABD5F /* TextFieldTestController.m in Sources */,
 				18477B3C1D9A012B0078875A /* VideoRecordController.m in Sources */,
 				1853BB211D9BC4F700403ECE /* VideoWriter.m in Sources */,
 				185335BE1D8FE29900329C14 /* AVAssetTrack+AVEditor.m in Sources */,
+				1863040F1E4AE7C100ADBDC9 /* YQJPopoverContentView.m in Sources */,
 				186AC1EB1D8157E9008ABD5F /* TestListController.m in Sources */,
+				185530831E150C6A0004A3A9 /* HtmlToPdfController.m in Sources */,
+				1863040C1E4ABAF400ADBDC9 /* PopoverConvertCalculate.m in Sources */,
 				18477B431D9A1C170078875A /* UIImage+SampleBuffer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -393,6 +518,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				186AC1D11D8155C5008ABD5F /* TestDemoTests.m in Sources */,
+				186BD6A61DF1124000EE0A9C /* SSLParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

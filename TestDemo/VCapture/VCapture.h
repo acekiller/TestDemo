@@ -20,6 +20,7 @@
 - (void) stopRecording;
 - (void) startRunning;
 - (void) stopRunning;
+- (void) configHandler:(void(AVCaptureSession *session))handler;
 @end
 
 @protocol VCaptureDelegate <NSObject>

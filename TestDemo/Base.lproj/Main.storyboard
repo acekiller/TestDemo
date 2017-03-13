@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="o7A-KK-TwH">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="o7A-KK-TwH">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -12,15 +15,15 @@
             <objects>
                 <tableViewController storyboardIdentifier="TestListController" id="iZ8-U9-5hk" customClass="TestListController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="tLc-Ow-Lir">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="testListCell" id="tJa-G4-OfC">
-                                <rect key="frame" x="0.0" y="92" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="tJa-G4-OfC" id="8c5-HH-lvC">
-                                    <frame key="frameInset" width="320" height="44"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -35,11 +38,66 @@
                         <segue destination="V72-b0-HdA" kind="show" identifier="testList" id="634-HF-YQP"/>
                         <segue destination="J3f-By-gxF" kind="show" id="n1r-Fd-0kO"/>
                         <segue destination="Qos-Ei-oFf" kind="show" id="bnc-Q2-CYS"/>
+                        <segue destination="UaV-E6-peH" kind="show" id="3s8-u0-qqs"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rZx-Op-fkl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="922" y="-6"/>
+            <point key="canvasLocation" x="701" y="3"/>
+        </scene>
+        <!--Appearance View Controller-->
+        <scene sceneID="3ha-ZE-HvQ">
+            <objects>
+                <viewController storyboardIdentifier="AppearanceViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="UaV-E6-peH" customClass="AppearanceViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tK1-rJ-HpG"/>
+                        <viewControllerLayoutGuide type="bottom" id="3bV-S7-cA8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QdB-8X-lZD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="swb-Ab-UMU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1294" y="292"/>
+        </scene>
+        <!--Html To Pdf Controller-->
+        <scene sceneID="4mQ-l0-aTB">
+            <objects>
+                <viewController storyboardIdentifier="HtmlToPdfController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="TZu-Pd-vPl" customClass="HtmlToPdfController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BeD-F2-h6e"/>
+                        <viewControllerLayoutGuide type="bottom" id="41O-8p-5d9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YcR-aC-GE5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TdC-o9-m15" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1812" y="516"/>
+        </scene>
+        <!--Play Controller-->
+        <scene sceneID="1Ja-K2-Er3">
+            <objects>
+                <viewController storyboardIdentifier="PlayController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="f2e-kq-ga2" customClass="PlayController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rkn-Gs-QPq"/>
+                        <viewControllerLayoutGuide type="bottom" id="RYo-3t-2fL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3Vm-gO-vQy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O52-Yg-TOC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2211" y="626"/>
         </scene>
         <!--Video Record Controller-->
         <scene sceneID="FdP-sG-uTU">
@@ -50,7 +108,7 @@
                         <viewControllerLayoutGuide type="bottom" id="xmj-yr-xIt"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="wG0-8o-dvT">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -58,6 +116,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AHJ-DJ-EUk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1594" y="23"/>
+        </scene>
+        <!--Popover Controller-->
+        <scene sceneID="tuA-it-Fwb">
+            <objects>
+                <viewController storyboardIdentifier="PopoverController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="xyP-Kh-yDy" customClass="PopoverController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NQW-g3-cdS"/>
+                        <viewControllerLayoutGuide type="bottom" id="Nm4-Ni-iLx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="108-Zh-Ze1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ipN-VQ-ZDP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1991" y="-129"/>
         </scene>
         <!--Merge Controller-->
         <scene sceneID="Lda-js-ANs">
@@ -68,11 +144,11 @@
                         <viewControllerLayoutGuide type="bottom" id="rb8-H7-Xu6"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="e3g-4R-gh8">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MUl-sp-Wsf">
-                                <frame key="frameInset" minX="110" minY="87" width="100" height="30"/>
+                                <rect key="frame" x="110" y="87" width="100" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Load Asset1"/>
                                 <connections>
@@ -80,7 +156,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1sb-vt-QlD">
-                                <frame key="frameInset" minX="110" minY="126" width="100" height="30"/>
+                                <rect key="frame" x="110" y="126" width="100" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Load Asset2"/>
                                 <connections>
@@ -88,7 +164,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iS9-X4-rW5">
-                                <frame key="frameInset" minX="110" minY="164" width="100" height="30"/>
+                                <rect key="frame" x="110" y="164" width="100" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Load Audio"/>
                                 <connections>
@@ -96,7 +172,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="opJ-KG-Hvy">
-                                <frame key="frameInset" minX="80" minY="202" width="160" height="30"/>
+                                <rect key="frame" x="80" y="202" width="160" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Merge and Save Video"/>
                                 <connections>
@@ -104,7 +180,7 @@
                                 </connections>
                             </button>
                             <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="Uh1-AU-ZYF">
-                                <frame key="frameInset" minX="50.00%" minY="43.80%" width="20" height="20"/>
+                                <rect key="frame" x="177" y="283" width="19" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                             </activityIndicatorView>
                         </subviews>
@@ -127,11 +203,11 @@
                         <viewControllerLayoutGuide type="bottom" id="flM-HW-igY"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="u2r-ys-u7r">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yCJ-q4-cjj">
-                                <frame key="frameInset" minX="28" minY="118" width="544" height="30"/>
+                                <rect key="frame" x="28" y="118" width="544" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="8uY-Oo-v1H"/>
                                 </constraints>
@@ -139,7 +215,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="cWx-aK-0EU">
-                                <frame key="frameInset" minX="107" minY="83" width="161" height="29"/>
+                                <rect key="frame" x="107" y="83" width="161" height="29"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="161" id="Y1u-AY-fV9"/>
                                     <constraint firstAttribute="height" constant="28" id="goG-Pr-AXE"/>
@@ -154,7 +230,7 @@
                                 </connections>
                             </segmentedControl>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nwr-Yp-BIq">
-                                <frame key="frameInset" minX="28" minY="190" width="544" height="30"/>
+                                <rect key="frame" x="28" y="190" width="544" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="DRp-q9-Ob8"/>
                                 </constraints>
@@ -162,7 +238,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="pgY-wX-00E">
-                                <frame key="frameInset" minX="107" minY="156" width="161" height="29"/>
+                                <rect key="frame" x="107" y="156" width="161" height="29"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="28" id="GVw-0H-2wX"/>
                                     <constraint firstAttribute="width" constant="161" id="bLE-5f-xsf"/>
@@ -176,7 +252,7 @@
                                 </connections>
                             </segmentedControl>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2qA-ca-AGB" customClass="TDTextField">
-                                <frame key="frameInset" minX="28" minY="275" width="544" height="30"/>
+                                <rect key="frame" x="28" y="275" width="544" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="Z7P-tz-WEx"/>
                                 </constraints>
@@ -184,7 +260,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="对齐方式" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8fp-r1-UJC">
-                                <frame key="frameInset" minX="28" minY="87" width="68" height="21"/>
+                                <rect key="frame" x="28" y="87" width="68" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="68" id="ARP-8p-Bgb"/>
                                     <constraint firstAttribute="height" constant="21" id="NSZ-6S-zeM"/>
@@ -194,7 +270,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="密文明文" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L26-U4-2q3">
-                                <frame key="frameInset" minX="28" minY="159" width="68" height="21"/>
+                                <rect key="frame" x="28" y="159" width="68" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="68" id="ebm-Ke-24n"/>
                                     <constraint firstAttribute="height" constant="21" id="wCk-Kp-L7U"/>
@@ -204,7 +280,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="限制长度(20字符)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rgB-ee-OeQ">
-                                <frame key="frameInset" minX="28" minY="244" width="134" height="21"/>
+                                <rect key="frame" x="28" y="244" width="134" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="134" id="chr-6w-HUE"/>
                                     <constraint firstAttribute="height" constant="21" id="hyu-Ct-xuk"/>
