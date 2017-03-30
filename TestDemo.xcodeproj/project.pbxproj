@@ -41,12 +41,15 @@
 		186AC1F41D815DB7008ABD5F /* TDTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 186AC1F31D815DB7008ABD5F /* TDTextField.m */; };
 		186BD6A51DF1124000EE0A9C /* SSLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 186BD6A41DF1124000EE0A9C /* SSLParser.m */; };
 		186BD6A61DF1124000EE0A9C /* SSLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 186BD6A41DF1124000EE0A9C /* SSLParser.m */; };
+		186CA3521E8CA65C0037C85C /* LottieTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186CA3511E8CA65C0037C85C /* LottieTestController.m */; };
 		186EBE0C1DB715F70089610D /* AppearanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186EBE0B1DB715F70089610D /* AppearanceViewController.m */; };
 		186EBE0F1DB717110089610D /* AppearanceButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 186EBE0E1DB717110089610D /* AppearanceButton.m */; };
+		1879221C1E80BA3D001C0A19 /* RACTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1879221B1E80BA3D001C0A19 /* RACTestController.m */; };
 		187E3A111D8E6B2200424DEF /* MergeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187E3A101D8E6B2200424DEF /* MergeController.m */; };
 		187E3A131D8E722800424DEF /* liunian.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 187E3A121D8E722800424DEF /* liunian.mp3 */; };
 		187E3A171D8E836500424DEF /* AVEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 187E3A161D8E836500424DEF /* AVEditor.m */; };
 		187E3A1A1D8E89C000424DEF /* AVFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 187E3A191D8E89C000424DEF /* AVFile.m */; };
+		1883BB781E7FE6BA00D48016 /* RACSignalUse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1883BB771E7FE6BA00D48016 /* RACSignalUse.m */; };
 		6E380EC97CEAE2664B76B8A5 /* libPods-TestDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBB238DAD0A225FBBA77BBCB /* libPods-TestDemoTests.a */; };
 		DF8337A3196454B1BDD05A9D /* libPods-TestDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6495C508FFC938876140634 /* libPods-TestDemo.a */; };
 		E860A3CA654855B5E31ABBF8 /* libPods-TestDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31790A91176FCB3AFEAECB9E /* libPods-TestDemoUITests.a */; };
@@ -132,10 +135,14 @@
 		186AC1F31D815DB7008ABD5F /* TDTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTextField.m; sourceTree = "<group>"; };
 		186BD6A31DF1124000EE0A9C /* SSLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSLParser.h; sourceTree = "<group>"; };
 		186BD6A41DF1124000EE0A9C /* SSLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSLParser.m; sourceTree = "<group>"; };
+		186CA3501E8CA65C0037C85C /* LottieTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LottieTestController.h; sourceTree = "<group>"; };
+		186CA3511E8CA65C0037C85C /* LottieTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LottieTestController.m; sourceTree = "<group>"; };
 		186EBE0A1DB715F70089610D /* AppearanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppearanceViewController.h; sourceTree = "<group>"; };
 		186EBE0B1DB715F70089610D /* AppearanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppearanceViewController.m; sourceTree = "<group>"; };
 		186EBE0D1DB717110089610D /* AppearanceButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppearanceButton.h; sourceTree = "<group>"; };
 		186EBE0E1DB717110089610D /* AppearanceButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppearanceButton.m; sourceTree = "<group>"; };
+		1879221A1E80BA3D001C0A19 /* RACTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACTestController.h; sourceTree = "<group>"; };
+		1879221B1E80BA3D001C0A19 /* RACTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACTestController.m; sourceTree = "<group>"; };
 		187E3A0F1D8E6B2200424DEF /* MergeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MergeController.h; sourceTree = "<group>"; };
 		187E3A101D8E6B2200424DEF /* MergeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MergeController.m; sourceTree = "<group>"; };
 		187E3A121D8E722800424DEF /* liunian.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = liunian.mp3; sourceTree = "<group>"; };
@@ -143,6 +150,8 @@
 		187E3A161D8E836500424DEF /* AVEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVEditor.m; sourceTree = "<group>"; };
 		187E3A181D8E89C000424DEF /* AVFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVFile.h; sourceTree = "<group>"; };
 		187E3A191D8E89C000424DEF /* AVFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVFile.m; sourceTree = "<group>"; };
+		1883BB761E7FE6BA00D48016 /* RACSignalUse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACSignalUse.h; sourceTree = "<group>"; };
+		1883BB771E7FE6BA00D48016 /* RACSignalUse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACSignalUse.m; sourceTree = "<group>"; };
 		31790A91176FCB3AFEAECB9E /* libPods-TestDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31F0E627F2022384CCDC67EF /* Pods-TestDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestDemoUITests/Pods-TestDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		550F7D6359AA892AA4828998 /* Pods-TestDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestDemoUITests/Pods-TestDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -293,6 +302,8 @@
 		186AC1AF1D8155C4008ABD5F /* TestDemo */ = {
 			isa = PBXGroup;
 			children = (
+				186CA34F1E8CA6270037C85C /* Lottie */,
+				1883BB751E7FE69D00D48016 /* RACTest */,
 				1861DC511E7A440400F8D613 /* HandWritingRecognition */,
 				186765E71E72AE12007A91B0 /* PlayButton */,
 				185530801E150C360004A3A9 /* HTMLToPDF */,
@@ -359,6 +370,15 @@
 			path = Parsercer;
 			sourceTree = "<group>";
 		};
+		186CA34F1E8CA6270037C85C /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				186CA3501E8CA65C0037C85C /* LottieTestController.h */,
+				186CA3511E8CA65C0037C85C /* LottieTestController.m */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
 		186EBE091DB715D80089610D /* appearance */ = {
 			isa = PBXGroup;
 			children = (
@@ -383,6 +403,17 @@
 				185335C01D8FEA8700329C14 /* AVEditorexporter.m */,
 			);
 			path = AVEditor;
+			sourceTree = "<group>";
+		};
+		1883BB751E7FE69D00D48016 /* RACTest */ = {
+			isa = PBXGroup;
+			children = (
+				1883BB761E7FE6BA00D48016 /* RACSignalUse.h */,
+				1883BB771E7FE6BA00D48016 /* RACSignalUse.m */,
+				1879221A1E80BA3D001C0A19 /* RACTestController.h */,
+				1879221B1E80BA3D001C0A19 /* RACTestController.m */,
+			);
+			path = RACTest;
 			sourceTree = "<group>";
 		};
 		B300231D619A455E2A9E16EE /* Pods */ = {
@@ -469,7 +500,7 @@
 		186AC1A51D8155C4008ABD5F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = fantasy;
 				TargetAttributes = {
 					186AC1AC1D8155C4008ABD5F = {
@@ -686,8 +717,10 @@
 				186765EA1E72AE25007A91B0 /* PlayController.m in Sources */,
 				187E3A111D8E6B2200424DEF /* MergeController.m in Sources */,
 				186EBE0F1DB717110089610D /* AppearanceButton.m in Sources */,
+				186CA3521E8CA65C0037C85C /* LottieTestController.m in Sources */,
 				187E3A1A1D8E89C000424DEF /* AVFile.m in Sources */,
 				18477B391D9A011D0078875A /* VCapture.m in Sources */,
+				1883BB781E7FE6BA00D48016 /* RACSignalUse.m in Sources */,
 				186BD6A51DF1124000EE0A9C /* SSLParser.m in Sources */,
 				1855308C1E150F820004A3A9 /* HTMLToPDF.m in Sources */,
 				186EBE0C1DB715F70089610D /* AppearanceViewController.m in Sources */,
@@ -703,6 +736,7 @@
 				1861DC571E7A448000F8D613 /* HandwriteView.m in Sources */,
 				18477B3C1D9A012B0078875A /* VideoRecordController.m in Sources */,
 				1853BB211D9BC4F700403ECE /* VideoWriter.m in Sources */,
+				1879221C1E80BA3D001C0A19 /* RACTestController.m in Sources */,
 				185335BE1D8FE29900329C14 /* AVAssetTrack+AVEditor.m in Sources */,
 				1863040F1E4AE7C100ADBDC9 /* YQJPopoverContentView.m in Sources */,
 				186AC1EB1D8157E9008ABD5F /* TestListController.m in Sources */,
@@ -777,8 +811,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -820,8 +856,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -853,7 +891,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = S7VSUA36LS;
 				INFOPLIST_FILE = TestDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mainbo.homeschool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -871,7 +909,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = S7VSUA36LS;
 				INFOPLIST_FILE = TestDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mainbo.homeschool;
 				PRODUCT_NAME = "$(TARGET_NAME)";

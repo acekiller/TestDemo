@@ -14,6 +14,8 @@
 #import "HtmlToPdfController.h"
 #import "PopoverController.h"
 #import "PlayController.h"
+#import "RACTestController.h"
+#import "LottieTestController.h"
 
 @interface TestListController ()
 {
@@ -35,6 +37,8 @@
     [self addListItem:@"Html To PDF" className:NSStringFromClass([HtmlToPdfController class])];
     [self addListItem:@"Popover" className:NSStringFromClass([PopoverController class])];
     [self addListItem:@"Play & Pause" className:NSStringFromClass([PlayController class])];
+    [self addListItem:@"RAC Test" className:NSStringFromClass([RACTestController class])];
+    [self addListItem:@"Lottie" className:NSStringFromClass(LottieTestController.class)];
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -80,8 +84,8 @@
     if (className == nil) {
         return;
     }
-    
-    UIViewController *controller = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:className];
+    UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    UIViewController *controller = [storyBoard instantiateViewControllerWithIdentifier:className];
     if (controller == nil) {
         controller = [[NSClassFromString(className) init] alloc];
     }
