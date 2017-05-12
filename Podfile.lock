@@ -1,0 +1,21 @@
+PODS:
+  - lottie-ios (1.5.1)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+
+DEPENDENCIES:
+  - lottie-ios (~> 1.5.1)
+  - ReactiveCocoa (~> 2.5)
+
+SPEC CHECKSUMS:
+  lottie-ios: f680a7c4cb7a567ecf258fde0f967913aff111b8
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+
+PODFILE CHECKSUM: 83575b65daa827febb7396cdd797c8d4fe9dfc9b
+
+COCOAPODS: 1.1.1

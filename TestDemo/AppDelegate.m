@@ -17,6 +17,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    NSString *str1 = @"Hello";
+    NSString *str2 = @"Welcome";
+    NSString *str3 = @"Hello";
+    NSLog(@"hashCode : str1=>%lu,str2=>%lu,str3=>%lu,str1=>%lu",(unsigned long)str1.hash,(unsigned long)str2.hash,(unsigned long)str3.hash,(unsigned long)str1.hash);
+    [str1 isEqual:str3];
     return YES;
 }
 

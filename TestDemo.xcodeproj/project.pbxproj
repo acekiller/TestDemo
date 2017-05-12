@@ -42,6 +42,7 @@
 		186BD6A51DF1124000EE0A9C /* SSLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 186BD6A41DF1124000EE0A9C /* SSLParser.m */; };
 		186BD6A61DF1124000EE0A9C /* SSLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 186BD6A41DF1124000EE0A9C /* SSLParser.m */; };
 		186CA3521E8CA65C0037C85C /* LottieTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186CA3511E8CA65C0037C85C /* LottieTestController.m */; };
+		186DD0941E9DD74D00A96F5C /* FSKeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 186DD0931E9DD74D00A96F5C /* FSKeyChain.m */; };
 		186EBE0C1DB715F70089610D /* AppearanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186EBE0B1DB715F70089610D /* AppearanceViewController.m */; };
 		186EBE0F1DB717110089610D /* AppearanceButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 186EBE0E1DB717110089610D /* AppearanceButton.m */; };
 		1879221C1E80BA3D001C0A19 /* RACTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1879221B1E80BA3D001C0A19 /* RACTestController.m */; };
@@ -137,6 +138,8 @@
 		186BD6A41DF1124000EE0A9C /* SSLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSLParser.m; sourceTree = "<group>"; };
 		186CA3501E8CA65C0037C85C /* LottieTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LottieTestController.h; sourceTree = "<group>"; };
 		186CA3511E8CA65C0037C85C /* LottieTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LottieTestController.m; sourceTree = "<group>"; };
+		186DD0921E9DD74D00A96F5C /* FSKeyChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSKeyChain.h; sourceTree = "<group>"; };
+		186DD0931E9DD74D00A96F5C /* FSKeyChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSKeyChain.m; sourceTree = "<group>"; };
 		186EBE0A1DB715F70089610D /* AppearanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppearanceViewController.h; sourceTree = "<group>"; };
 		186EBE0B1DB715F70089610D /* AppearanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppearanceViewController.m; sourceTree = "<group>"; };
 		186EBE0D1DB717110089610D /* AppearanceButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppearanceButton.h; sourceTree = "<group>"; };
@@ -302,6 +305,7 @@
 		186AC1AF1D8155C4008ABD5F /* TestDemo */ = {
 			isa = PBXGroup;
 			children = (
+				186DD0911E9DD74D00A96F5C /* KeyChain */,
 				186CA34F1E8CA6270037C85C /* Lottie */,
 				1883BB751E7FE69D00D48016 /* RACTest */,
 				1861DC511E7A440400F8D613 /* HandWritingRecognition */,
@@ -377,6 +381,15 @@
 				186CA3511E8CA65C0037C85C /* LottieTestController.m */,
 			);
 			path = Lottie;
+			sourceTree = "<group>";
+		};
+		186DD0911E9DD74D00A96F5C /* KeyChain */ = {
+			isa = PBXGroup;
+			children = (
+				186DD0921E9DD74D00A96F5C /* FSKeyChain.h */,
+				186DD0931E9DD74D00A96F5C /* FSKeyChain.m */,
+			);
+			path = KeyChain;
 			sourceTree = "<group>";
 		};
 		186EBE091DB715D80089610D /* appearance */ = {
@@ -716,6 +729,7 @@
 				185530891E150F170004A3A9 /* UIViewController+HTMLToPDF.m in Sources */,
 				186765EA1E72AE25007A91B0 /* PlayController.m in Sources */,
 				187E3A111D8E6B2200424DEF /* MergeController.m in Sources */,
+				186DD0941E9DD74D00A96F5C /* FSKeyChain.m in Sources */,
 				186EBE0F1DB717110089610D /* AppearanceButton.m in Sources */,
 				186CA3521E8CA65C0037C85C /* LottieTestController.m in Sources */,
 				187E3A1A1D8E89C000424DEF /* AVFile.m in Sources */,
