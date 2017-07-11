@@ -6,6 +6,7 @@ target 'TestDemo' do
   # use_frameworks!
   pod 'ReactiveCocoa', '~> 2.5'
   pod 'lottie-ios', '~>1.5.1'
+  pod 'iosMath'
 #  pod 'AsyncDisplayKit', '~>2.2'
   # Pods for TestDemo
 

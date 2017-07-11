@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "NSObjectCopy.h"
 
 @interface AppDelegate () <UISplitViewControllerDelegate>
 
@@ -18,10 +19,16 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     NSString *str1 = @"Hello";
-    NSString *str2 = @"Welcome";
-    NSString *str3 = @"Hello";
-    NSLog(@"hashCode : str1=>%lu,str2=>%lu,str3=>%lu,str1=>%lu",(unsigned long)str1.hash,(unsigned long)str2.hash,(unsigned long)str3.hash,(unsigned long)str1.hash);
-    [str1 isEqual:str3];
+    NSString *str2 = [str1 copy];
+    NSMutableString *str3 = [str1 mutableCopy];
+    NSLog(@"hashCode : str1=>%p,str2=>%p,str3=>%p",str1, str2, str3);
+    NSLog(@"hashCode : str1=>%p,str2=>%p,str3=>%p",&str1, &str2, &str3);
+    
+    NSObjectCopy *obj1 = [[NSObjectCopy alloc] init];
+    NSObjectCopy *obj2 = [obj1 copy];
+    NSObjectCopy *obj3 = [obj1 mutableCopy];
+    NSLog(@"obj1 : %lu, obj2 : %lu, obj3 : %lu",[obj1 hash],[obj2 hash],[obj3 hash]);
+    
     return YES;
 }
 

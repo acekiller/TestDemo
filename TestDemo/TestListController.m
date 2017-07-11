@@ -16,6 +16,8 @@
 #import "PlayController.h"
 #import "RACTestController.h"
 #import "LottieTestController.h"
+#import "ImageFiltersController.h"
+#import "TextKitController.h"
 
 @interface TestListController ()
 {
@@ -30,6 +32,8 @@
     [super viewDidLoad];
     classMaps = [[NSMutableDictionary alloc] init];
     titles = [[NSMutableArray alloc] init];
+    [self addListItem:@"图文-添加视图" className:NSStringFromClass(TextKitController.class)];
+    [self addListItem:@"Image Filter" className:NSStringFromClass(ImageFiltersController.class)];
     [self addListItem:@"UITextField" className:NSStringFromClass([TextFieldTestController class])];
     [self addListItem:@"Merge Video" className:NSStringFromClass([MergeController class])];
     [self addListItem:@"Record" className:NSStringFromClass([VideoRecordController class])];

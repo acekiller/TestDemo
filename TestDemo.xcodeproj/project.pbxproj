@@ -26,6 +26,7 @@
 		186304091E4AB20900ADBDC9 /* FSPopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 186304081E4AB20900ADBDC9 /* FSPopoverView.m */; };
 		1863040C1E4ABAF400ADBDC9 /* PopoverConvertCalculate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1863040B1E4ABAF400ADBDC9 /* PopoverConvertCalculate.m */; };
 		1863040F1E4AE7C100ADBDC9 /* YQJPopoverContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1863040E1E4AE7C100ADBDC9 /* YQJPopoverContentView.m */; };
+		186496E91EE14C7100002FD5 /* NSObjectCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 186496E81EE14C7100002FD5 /* NSObjectCopy.m */; };
 		186765EA1E72AE25007A91B0 /* PlayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186765E91E72AE25007A91B0 /* PlayController.m */; };
 		186765ED1E72AE92007A91B0 /* PlayButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 186765EC1E72AE92007A91B0 /* PlayButton.m */; };
 		186AC1B21D8155C4008ABD5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 186AC1B11D8155C4008ABD5F /* main.m */; };
@@ -41,16 +42,23 @@
 		186AC1F41D815DB7008ABD5F /* TDTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 186AC1F31D815DB7008ABD5F /* TDTextField.m */; };
 		186BD6A51DF1124000EE0A9C /* SSLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 186BD6A41DF1124000EE0A9C /* SSLParser.m */; };
 		186BD6A61DF1124000EE0A9C /* SSLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 186BD6A41DF1124000EE0A9C /* SSLParser.m */; };
+		186BEC121ED7C6F400B803F2 /* UIColor+Contrast.m in Sources */ = {isa = PBXBuildFile; fileRef = 186BEC111ED7C6F400B803F2 /* UIColor+Contrast.m */; };
+		186BEC161ED7CD4500B803F2 /* ImageFiltersController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186BEC151ED7CD4500B803F2 /* ImageFiltersController.m */; };
+		186BEC191ED7CD8100B803F2 /* FMGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 186BEC181ED7CD8100B803F2 /* FMGradientView.m */; };
 		186CA3521E8CA65C0037C85C /* LottieTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186CA3511E8CA65C0037C85C /* LottieTestController.m */; };
 		186DD0941E9DD74D00A96F5C /* FSKeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 186DD0931E9DD74D00A96F5C /* FSKeyChain.m */; };
 		186EBE0C1DB715F70089610D /* AppearanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186EBE0B1DB715F70089610D /* AppearanceViewController.m */; };
 		186EBE0F1DB717110089610D /* AppearanceButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 186EBE0E1DB717110089610D /* AppearanceButton.m */; };
 		1879221C1E80BA3D001C0A19 /* RACTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1879221B1E80BA3D001C0A19 /* RACTestController.m */; };
+		187D70301F13549900D4F0AC /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187D702F1F13549900D4F0AC /* CoreText.framework */; };
+		187D70341F13580700D4F0AC /* TextKitController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187D70331F13580700D4F0AC /* TextKitController.m */; };
+		187D70371F135BF100D4F0AC /* MathLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 187D70361F135BF100D4F0AC /* MathLabel.m */; };
 		187E3A111D8E6B2200424DEF /* MergeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187E3A101D8E6B2200424DEF /* MergeController.m */; };
 		187E3A131D8E722800424DEF /* liunian.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 187E3A121D8E722800424DEF /* liunian.mp3 */; };
 		187E3A171D8E836500424DEF /* AVEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 187E3A161D8E836500424DEF /* AVEditor.m */; };
 		187E3A1A1D8E89C000424DEF /* AVFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 187E3A191D8E89C000424DEF /* AVFile.m */; };
 		1883BB781E7FE6BA00D48016 /* RACSignalUse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1883BB771E7FE6BA00D48016 /* RACSignalUse.m */; };
+		18FC7FE41EEA92DD00FFA14E /* UIImage+WaterMark.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC7FE21EEA92D200FFA14E /* UIImage+WaterMark.m */; };
 		6E380EC97CEAE2664B76B8A5 /* libPods-TestDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBB238DAD0A225FBBA77BBCB /* libPods-TestDemoTests.a */; };
 		DF8337A3196454B1BDD05A9D /* libPods-TestDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6495C508FFC938876140634 /* libPods-TestDemo.a */; };
 		E860A3CA654855B5E31ABBF8 /* libPods-TestDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31790A91176FCB3AFEAECB9E /* libPods-TestDemoUITests.a */; };
@@ -109,6 +117,8 @@
 		1863040B1E4ABAF400ADBDC9 /* PopoverConvertCalculate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverConvertCalculate.m; sourceTree = "<group>"; };
 		1863040D1E4AE7C100ADBDC9 /* YQJPopoverContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQJPopoverContentView.h; sourceTree = "<group>"; };
 		1863040E1E4AE7C100ADBDC9 /* YQJPopoverContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQJPopoverContentView.m; sourceTree = "<group>"; };
+		186496E71EE14C7100002FD5 /* NSObjectCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSObjectCopy.h; sourceTree = "<group>"; };
+		186496E81EE14C7100002FD5 /* NSObjectCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSObjectCopy.m; sourceTree = "<group>"; };
 		186765E81E72AE25007A91B0 /* PlayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayController.h; sourceTree = "<group>"; };
 		186765E91E72AE25007A91B0 /* PlayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayController.m; sourceTree = "<group>"; };
 		186765EB1E72AE92007A91B0 /* PlayButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayButton.h; sourceTree = "<group>"; };
@@ -136,6 +146,12 @@
 		186AC1F31D815DB7008ABD5F /* TDTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTextField.m; sourceTree = "<group>"; };
 		186BD6A31DF1124000EE0A9C /* SSLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSLParser.h; sourceTree = "<group>"; };
 		186BD6A41DF1124000EE0A9C /* SSLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSLParser.m; sourceTree = "<group>"; };
+		186BEC101ED7C6F400B803F2 /* UIColor+Contrast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Contrast.h"; sourceTree = "<group>"; };
+		186BEC111ED7C6F400B803F2 /* UIColor+Contrast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Contrast.m"; sourceTree = "<group>"; };
+		186BEC141ED7CD4500B803F2 /* ImageFiltersController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageFiltersController.h; sourceTree = "<group>"; };
+		186BEC151ED7CD4500B803F2 /* ImageFiltersController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageFiltersController.m; sourceTree = "<group>"; };
+		186BEC171ED7CD8100B803F2 /* FMGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMGradientView.h; sourceTree = "<group>"; };
+		186BEC181ED7CD8100B803F2 /* FMGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMGradientView.m; sourceTree = "<group>"; };
 		186CA3501E8CA65C0037C85C /* LottieTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LottieTestController.h; sourceTree = "<group>"; };
 		186CA3511E8CA65C0037C85C /* LottieTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LottieTestController.m; sourceTree = "<group>"; };
 		186DD0921E9DD74D00A96F5C /* FSKeyChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSKeyChain.h; sourceTree = "<group>"; };
@@ -146,6 +162,11 @@
 		186EBE0E1DB717110089610D /* AppearanceButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppearanceButton.m; sourceTree = "<group>"; };
 		1879221A1E80BA3D001C0A19 /* RACTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACTestController.h; sourceTree = "<group>"; };
 		1879221B1E80BA3D001C0A19 /* RACTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACTestController.m; sourceTree = "<group>"; };
+		187D702F1F13549900D4F0AC /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		187D70321F13580700D4F0AC /* TextKitController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextKitController.h; sourceTree = "<group>"; };
+		187D70331F13580700D4F0AC /* TextKitController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextKitController.m; sourceTree = "<group>"; };
+		187D70351F135BF100D4F0AC /* MathLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathLabel.h; sourceTree = "<group>"; };
+		187D70361F135BF100D4F0AC /* MathLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathLabel.m; sourceTree = "<group>"; };
 		187E3A0F1D8E6B2200424DEF /* MergeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MergeController.h; sourceTree = "<group>"; };
 		187E3A101D8E6B2200424DEF /* MergeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MergeController.m; sourceTree = "<group>"; };
 		187E3A121D8E722800424DEF /* liunian.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = liunian.mp3; sourceTree = "<group>"; };
@@ -155,6 +176,8 @@
 		187E3A191D8E89C000424DEF /* AVFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVFile.m; sourceTree = "<group>"; };
 		1883BB761E7FE6BA00D48016 /* RACSignalUse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACSignalUse.h; sourceTree = "<group>"; };
 		1883BB771E7FE6BA00D48016 /* RACSignalUse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACSignalUse.m; sourceTree = "<group>"; };
+		18FC7FE21EEA92D200FFA14E /* UIImage+WaterMark.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WaterMark.m"; sourceTree = "<group>"; };
+		18FC7FE31EEA92D200FFA14E /* UIImage+WaterMark.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+WaterMark.h"; sourceTree = "<group>"; };
 		31790A91176FCB3AFEAECB9E /* libPods-TestDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31F0E627F2022384CCDC67EF /* Pods-TestDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestDemoUITests/Pods-TestDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		550F7D6359AA892AA4828998 /* Pods-TestDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestDemoUITests/Pods-TestDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -170,6 +193,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				187D70301F13549900D4F0AC /* CoreText.framework in Frameworks */,
 				185530861E150E680004A3A9 /* WebKit.framework in Frameworks */,
 				1856F6651D879E99004177F3 /* AVFoundation.framework in Frameworks */,
 				DF8337A3196454B1BDD05A9D /* libPods-TestDemo.a in Frameworks */,
@@ -224,6 +248,7 @@
 		185530841E150E670004A3A9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				187D702F1F13549900D4F0AC /* CoreText.framework */,
 				185530851E150E670004A3A9 /* WebKit.framework */,
 				F6495C508FFC938876140634 /* libPods-TestDemo.a */,
 				BBB238DAD0A225FBBA77BBCB /* libPods-TestDemoTests.a */,
@@ -305,6 +330,9 @@
 		186AC1AF1D8155C4008ABD5F /* TestDemo */ = {
 			isa = PBXGroup;
 			children = (
+				187D70311F1357E800D4F0AC /* TextKit */,
+				186BEC131ED7CD2C00B803F2 /* ImageFilters */,
+				186BEC0F1ED7C5C000B803F2 /* Common */,
 				186DD0911E9DD74D00A96F5C /* KeyChain */,
 				186CA34F1E8CA6270037C85C /* Lottie */,
 				1883BB751E7FE69D00D48016 /* RACTest */,
@@ -335,6 +363,8 @@
 				18477B3A1D9A012B0078875A /* VideoRecordController.h */,
 				18477B3B1D9A012B0078875A /* VideoRecordController.m */,
 				186304031E4AB1D900ADBDC9 /* Popover */,
+				186496E71EE14C7100002FD5 /* NSObjectCopy.h */,
+				186496E81EE14C7100002FD5 /* NSObjectCopy.m */,
 			);
 			path = TestDemo;
 			sourceTree = "<group>";
@@ -374,6 +404,28 @@
 			path = Parsercer;
 			sourceTree = "<group>";
 		};
+		186BEC0F1ED7C5C000B803F2 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				18FC7FE31EEA92D200FFA14E /* UIImage+WaterMark.h */,
+				18FC7FE21EEA92D200FFA14E /* UIImage+WaterMark.m */,
+				186BEC101ED7C6F400B803F2 /* UIColor+Contrast.h */,
+				186BEC111ED7C6F400B803F2 /* UIColor+Contrast.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		186BEC131ED7CD2C00B803F2 /* ImageFilters */ = {
+			isa = PBXGroup;
+			children = (
+				186BEC141ED7CD4500B803F2 /* ImageFiltersController.h */,
+				186BEC151ED7CD4500B803F2 /* ImageFiltersController.m */,
+				186BEC171ED7CD8100B803F2 /* FMGradientView.h */,
+				186BEC181ED7CD8100B803F2 /* FMGradientView.m */,
+			);
+			path = ImageFilters;
+			sourceTree = "<group>";
+		};
 		186CA34F1E8CA6270037C85C /* Lottie */ = {
 			isa = PBXGroup;
 			children = (
@@ -401,6 +453,17 @@
 				186EBE0E1DB717110089610D /* AppearanceButton.m */,
 			);
 			path = appearance;
+			sourceTree = "<group>";
+		};
+		187D70311F1357E800D4F0AC /* TextKit */ = {
+			isa = PBXGroup;
+			children = (
+				187D70321F13580700D4F0AC /* TextKitController.h */,
+				187D70331F13580700D4F0AC /* TextKitController.m */,
+				187D70351F135BF100D4F0AC /* MathLabel.h */,
+				187D70361F135BF100D4F0AC /* MathLabel.m */,
+			);
+			path = TextKit;
 			sourceTree = "<group>";
 		};
 		187E3A141D8E834C00424DEF /* AVEditor */ = {
@@ -609,7 +672,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		33BC63A2C0A713865F660BBC /* [CP] Check Pods Manifest.lock */ = {
@@ -624,7 +687,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		4FE73E46E7CA6BC34346D645 /* [CP] Embed Pods Frameworks */ = {
@@ -699,7 +762,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		A2FC9C10653F8DF80D80BB3A /* [CP] Embed Pods Frameworks */ = {
@@ -727,6 +790,7 @@
 				187E3A171D8E836500424DEF /* AVEditor.m in Sources */,
 				186304061E4AB1D900ADBDC9 /* PopoverController.m in Sources */,
 				185530891E150F170004A3A9 /* UIViewController+HTMLToPDF.m in Sources */,
+				187D70341F13580700D4F0AC /* TextKitController.m in Sources */,
 				186765EA1E72AE25007A91B0 /* PlayController.m in Sources */,
 				187E3A111D8E6B2200424DEF /* MergeController.m in Sources */,
 				186DD0941E9DD74D00A96F5C /* FSKeyChain.m in Sources */,
@@ -740,6 +804,7 @@
 				186EBE0C1DB715F70089610D /* AppearanceViewController.m in Sources */,
 				186AC1B81D8155C4008ABD5F /* TestDemo.xcdatamodeld in Sources */,
 				186AC1F41D815DB7008ABD5F /* TDTextField.m in Sources */,
+				18FC7FE41EEA92DD00FFA14E /* UIImage+WaterMark.m in Sources */,
 				185335C11D8FEA8700329C14 /* AVEditorexporter.m in Sources */,
 				1861DC541E7A443100F8D613 /* HandwriteController.m in Sources */,
 				186765ED1E72AE92007A91B0 /* PlayButton.m in Sources */,
@@ -749,12 +814,17 @@
 				186AC1EE1D8159F4008ABD5F /* TextFieldTestController.m in Sources */,
 				1861DC571E7A448000F8D613 /* HandwriteView.m in Sources */,
 				18477B3C1D9A012B0078875A /* VideoRecordController.m in Sources */,
+				186BEC161ED7CD4500B803F2 /* ImageFiltersController.m in Sources */,
 				1853BB211D9BC4F700403ECE /* VideoWriter.m in Sources */,
 				1879221C1E80BA3D001C0A19 /* RACTestController.m in Sources */,
+				186BEC121ED7C6F400B803F2 /* UIColor+Contrast.m in Sources */,
+				187D70371F135BF100D4F0AC /* MathLabel.m in Sources */,
 				185335BE1D8FE29900329C14 /* AVAssetTrack+AVEditor.m in Sources */,
 				1863040F1E4AE7C100ADBDC9 /* YQJPopoverContentView.m in Sources */,
+				186BEC191ED7CD8100B803F2 /* FMGradientView.m in Sources */,
 				186AC1EB1D8157E9008ABD5F /* TestListController.m in Sources */,
 				185530831E150C6A0004A3A9 /* HtmlToPdfController.m in Sources */,
+				186496E91EE14C7100002FD5 /* NSObjectCopy.m in Sources */,
 				1863040C1E4ABAF400ADBDC9 /* PopoverConvertCalculate.m in Sources */,
 				18477B431D9A1C170078875A /* UIImage+SampleBuffer.m in Sources */,
 			);

@@ -1,4 +1,5 @@
 PODS:
+  - iosMath (0.9.4)
   - lottie-ios (1.5.1)
   - ReactiveCocoa (2.5):
     - ReactiveCocoa/UI (= 2.5)
@@ -9,13 +10,15 @@ PODS:
     - ReactiveCocoa/Core
 
 DEPENDENCIES:
+  - iosMath
   - lottie-ios (~> 1.5.1)
   - ReactiveCocoa (~> 2.5)
 
 SPEC CHECKSUMS:
+  iosMath: f7a6cbadf9d836d2149c2a84c435b1effc244cba
   lottie-ios: f680a7c4cb7a567ecf258fde0f967913aff111b8
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
 
-PODFILE CHECKSUM: 83575b65daa827febb7396cdd797c8d4fe9dfc9b
+PODFILE CHECKSUM: 877b9d418b8ef223b0f22748c82c5c7767d1fd40
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.2.1

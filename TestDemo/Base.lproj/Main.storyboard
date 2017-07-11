@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="o7A-KK-TwH">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="o7A-KK-TwH">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -38,6 +38,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rZx-Op-fkl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="701" y="3"/>
+        </scene>
+        <!--Text Kit Controller-->
+        <scene sceneID="R77-Ub-Wai">
+            <objects>
+                <viewController storyboardIdentifier="TextKitController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="b0J-f8-KdN" customClass="TextKitController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="THS-0j-uLN"/>
+                        <viewControllerLayoutGuide type="bottom" id="9KP-tH-C0J"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6dc-qI-nut">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IlR-SD-76x" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="826" y="397"/>
         </scene>
         <!--Appearance View Controller-->
         <scene sceneID="3ha-ZE-HvQ">
@@ -336,6 +354,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6tZ-bD-Mqt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2081" y="-625"/>
+        </scene>
+        <!--Image Filters Controller-->
+        <scene sceneID="gfR-if-hom">
+            <objects>
+                <viewController storyboardIdentifier="ImageFiltersController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="aW8-If-1et" customClass="ImageFiltersController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="h6e-Hl-4mx"/>
+                        <viewControllerLayoutGuide type="bottom" id="L62-lZ-uaR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jO3-DA-Vjq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="crY-Xi-18U" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3070" y="-425"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="A3B-U6-sat">

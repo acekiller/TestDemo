@@ -8,4 +8,5 @@ dependencies: /Users/apple/Desktop/TestDemo/TestDemo/TestListController.m \
   /Users/apple/Desktop/TestDemo/TestDemo/Popover/PopoverController.h \
   /Users/apple/Desktop/TestDemo/TestDemo/PlayButton/PlayController.h \
   /Users/apple/Desktop/TestDemo/TestDemo/RACTest/RACTestController.h \
-  /Users/apple/Desktop/TestDemo/TestDemo/Lottie/LottieTestController.h
+  /Users/apple/Desktop/TestDemo/TestDemo/Lottie/LottieTestController.h \
+  /Users/apple/Desktop/TestDemo/TestDemo/ImageFilters/ImageFiltersController.h
